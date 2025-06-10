@@ -120,7 +120,7 @@ npm run dev
 
 ---
 
-## 🔐 Environment Variables
+## 🔐 Environment Server Variables
 
 Create a `.env` file in the server directory with the following variables:
 
@@ -133,12 +133,12 @@ CLOUDINARY_API_SECRET=your_api_secret
 RAZORPAY_API_KEY=your_api_key
 RAZORPAY_API_SECRET=your_api_secret
 ```
+## 🔐 Environment Client Variables
+
 Create a `.env` file in the client directory with the following variables:
 
 ```env
-
 VIYE_RAZORPAY_API_KEY=your_api_key
-
 ---
 
 ## 💡 Future Enhancements
