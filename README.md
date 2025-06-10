@@ -33,8 +33,6 @@ Inspired by platforms like **Myntra**, **Zara**, and **ASOS**, ShopHub combines 
 - Product categorization: category, size, pricing, stock
 - Access and manage customer orders
 - Track order status
-
-#### Optional Features
 - Sales dashboard with:
   - Tabular product management
   - Filters & sorting
