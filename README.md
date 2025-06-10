@@ -1,101 +1,174 @@
+# 🛍️ ShopHub - Fashion E-Commerce Platform
 
-# 🚀 React + Vite Starter Template
+**Project Title:** Dual Login E-Commerce Platform for Fashion Retail  
+**Tech Stack:** React, Vite, TailwindCSS, ShadCN, Node.js, Express, MongoDB, Cloudinary, TypeScript
 
-This is a boilerplate project using **React** with **Vite** for fast and modern front-end development.
+---
 
-## 📦 Features
+### 🔗 Demo Video
 
-- ⚡️ Fast bundling with [Vite](https://vitejs.dev/)
-- ⚛️ Modern React with Hooks
-- 💅 Styled with CSS/SCSS/Tailwind (customizable)
-- 🔧 ESLint & Prettier (optional)
-- 🧪 Ready for Testing (optional: Vitest/React Testing Library)
-- 📁 Clean project structure
+👉 [Click here to view the Demo Video](https://player.cloudinary.com/embed/?cloud_name=dfvs0kijp&public_id=shophub_prototype_den94y&profile=cld-default)
+
+---
+
+## 🎯 Objective
+
+**ShopHub** is a full-scale fashion e-commerce platform designed to deliver a seamless and modern shopping experience. It supports dual user roles:
+
+- 👩‍💼 **Sellers (Clients):** Register and manage product listings
+- 🛒 **Buyers (Users):** Browse, filter, wishlist, and purchase products
+
+Inspired by platforms like **Myntra**, **Zara**, and **ASOS**, ShopHub combines modern UI, secure transactions, and real-time user support.
+
+---
+
+## 👥 User Roles & Functionalities
+
+### 🧾 Seller (Client) Portal
+
+#### Core Features
+- Secure registration and login
+- Add, edit, delete product listings
+- Upload multiple product images via **Cloudinary**
+- Product categorization: category, size, pricing, stock
+- Access and manage customer orders
+- Track order status
+
+#### Optional Features
+- Sales dashboard with:
+  - Tabular product management
+  - Filters & sorting
+  - Charts and graphs for product performance insights
+
+---
+
+### 🛍️ Buyer (User) Portal
+
+#### Core Features
+- Email login support
+- Browse all products
+- Advanced filtering (category, size, price, latest)
+- Product pages with sizes, images
+- Wishlist and cart functionalities
+- Secure checkout with payment integration 
+- Order history & tracking
+- Chatbot integration for navigation and support
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Layer        | Technology                             |
+|--------------|-----------------------------------------|
+| Frontend     | React, Vite, TailwindCSS, ShadCN, TypeScript |
+| Backend      | Node.js, Express                        |
+| Database     | MongoDB                                 |
+| Auth         | JWT                             |
+| Image Upload | Cloudinary                                |
+| Styling UI   | TailwindCSS + ShadCN                    |
+| Chatbot      | GPT/Dialogflow               |
+| Payment      | Razorpay           |
+
+---
 
 ## 📁 Project Structure
 
 ```
-my-app/
-├── backend
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   ├── main.jsx
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
+shophub/
+├── client/         # React + Vite frontend
+├── server/         # Node.js + Express backend
+├── public/         # Static assets
+└── README.md
 ```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have **Node.js** and **npm** (or `yarn` / `pnpm`) installed.
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/DivyaP1063/ShopHub.git
-
-# Navigate into the project
-cd your-repo-name
-
-# Install dependencies
-npm install
-# or
-yarn
-# or
-pnpm install
-```
-
-### Development Server
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Visit `http://localhost:8080` to view your app.
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## 🛠 Customization
-
-You can customize:
-
-- CSS framework (Tailwind, SCSS, etc.)
-- Linting rules (`.eslintrc`)
-- Aliases and build configs (`vite.config.js`)
-
-## 📦 Dependencies
-
-- React
-- ReactDOM
-- Vite
-
-## 📜 License
-
-[MIT](LICENSE)
 
 ---
 
-Made with ❤️ using Vite + React
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/DivyaP1063/shopapp.git
+cd shophub
+```
+
+### 2. Install Dependencies
+
+**Frontend (client):**
+```bash
+cd client
+npm install
+```
+
+**Backend (server):**
+```bash
+cd ../server
+npm install
+```
+
+### 3. Start Development Servers
+
+**Frontend:**
+```bash
+npm run dev
+```
+
+**Backend:**
+```bash
+npm run dev
+```
+
+> Make sure MongoDB is running and `.env` is correctly configured.
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the server directory with the following variables:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+RAZORPAY_API_KEY=your_api_key
+RAZORPAY_API_SECRET=your_api_secret
+```
+Create a `.env` file in the client directory with the following variables:
+
+```env
+
+VIYE_RAZORPAY_API_KEY=your_api_key
+
+---
+
+## 💡 Future Enhancements
+
+- Admin dashboard
+- AI-powered product recommendations
+- React Native mobile app
+- Real-time push notifications
+- Theme support (dark/light)
+
+---
+
+## 📬 Team Member
+Gitanshi Sethi
+Sparsh Singh
+Siddharth Singh
+Divya Prakash
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+
+## 📎 Links
+
+- 🌐 Live Preview: _Coming soon_
+- 📱 Mobile App: _Coming soon_
+- 📽️ Demo Video: _Coming soon_
